@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #2a6a42;
+    color: black;
+    border: 2px solid black;
+}
+
+.portfolio-header {
+    text-align: center;
+    background-color: #2a6a42;
+    padding: 10px;
+}
+
+.portfolio-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.info-section {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.info-section h2,
+.info-section h3 {
+    margin: 10px 0;
+}
+
+.info-section img {
+    width: 130px;
+    height: 110px;
+    padding: 4px;
+    border: 5px solid #2a6a42;
+}
+
+.links-section {
+    flex: 2;
+    margin: 10px;
+}
+
+.links-section h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.links-section ul {
+    padding: 0;
+}
+
+.links-section ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.links-section ol li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.links-section ol li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.links-section ol li a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-footer {
+    text-align: center;
+    background-color: #2a6a42;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.portfolio-footer p {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.table {
+    background-color: rgb(100, 216, 136);
+    border: 2px black;
+}
+
+
+#table td {
+    background-color: rgb(100, 216, 136); 
+    padding: 10px;
+}
+
+#table th {
+    background-color: #b0c4de; 
+}
